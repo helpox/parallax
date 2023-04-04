@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* PARALLAX 1st */
+.PARALLAX {
+    background-image: url(images/image1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.PARALLAX h1{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+    font-size: 27px;
+    letter-spacing: 7.5px;
+    font-family:sans-serif;
+}
+/*  PARALLAX  sec-1   */
+#sec-1-text{
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+}
+#sec-1-text h3{
+     font-size: 25px;
+     margin: 20px 0px;
+}
+#sec-1-text p{
+    margin: 20px 0px;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+/*ection - 3 - img2  */
+#sec-3-img2{
+   background-image: url(images/image2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   background-attachment: fixed;
+}
+#sec-3-img2 h1{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+    font-size: 27px;
+    letter-spacing: 7.5px;
+    font-family:sans-serif;
+}
+/* section - 4- text */
+#sec-3-text{
+    padding: 50px;
+    text-align: center;
+    background-color: #313534;
+    color: white;
+}
+#sec-3-text h3{
+     font-size: 25px;
+     margin: 20px 0px;
+}
+#sec-3-text p{
+    margin: 20px 0px;
+    line-height: 27px;
+    font-size: 18px;
+}
+/* section - 5 - img3 */
+#sec-5-img3{
+    background-image: url(images/image3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-attachment: fixed;
+ }
+ #sec-5-img3 h1{
+     background-color: #313534;
+     color: white;
+     padding: 20px;
+     font-size: 27px;
+     letter-spacing: 7.5px;
+     font-family:sans-serif;
+ }
+ /* sec-6-text */
+ #sec-6-text{
+    padding: 50px;
+    text-align: center;
+    background-color: #313534;
+    color: white;
+}
+#sec-6-text h3{
+     font-size: 25px;
+     margin: 20px 0px;
+}
+#sec-6-text p{
+    margin: 20px 0px;
+    line-height: 27px;
+    font-size: 18px;
+}
+/* mobile and 600px max-width reponsive */
+@media screen and (max-width:570px){
+   .PARALLAX h1{
+    padding: 19px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+   }
+   #sec-3-img2 h1{
+    padding: 19px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+   }
+    #sec-1-text {
+        padding: 30px;
+        text-align: justify; 
+    }
+    #sec-3-text{
+        padding: 30px; 
+        text-align: justify; 
+    } 
+    #sec-6-text{
+        padding: 30px;
+        text-align: justify;  
+    }
+    #sec-5-img3 h1 {
+        padding: 19px;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+}
